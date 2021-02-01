@@ -29,8 +29,8 @@ module.exports = function (context) {
   	var config = fs.readFileSync("config.xml").toString()
   	FACEBOOK_URL_SCHEME_SUFFIX = getPreferenceValue(config, "FACEBOOK_URL_SCHEME_SUFFIX")
     if(!FACEBOOK_URL_SCHEME_SUFFIX) {
-      var packageJson = fs.readFileSync("package.json").toString()
-      FACEBOOK_URL_SCHEME_SUFFIX = getPreferenceValueFromPackageJson(packageJson, "FACEBOOK_URL_SCHEME_SUFFIX")
+//       var packageJson = fs.readFileSync("package.json").toString()
+//       FACEBOOK_URL_SCHEME_SUFFIX = getPreferenceValueFromPackageJson(packageJson, "FACEBOOK_URL_SCHEME_SUFFIX")
     }
   }
 
@@ -46,8 +46,8 @@ module.exports = function (context) {
   	var config = fs.readFileSync("config.xml").toString()
   	FACEBOOK_AUTO_LOG_APP_EVENTS = getPreferenceValue(config, "FACEBOOK_AUTO_LOG_APP_EVENTS")
     if(!FACEBOOK_AUTO_LOG_APP_EVENTS) {
-      var packageJson = fs.readFileSync("package.json").toString()
-      FACEBOOK_AUTO_LOG_APP_EVENTS = getPreferenceValueFromPackageJson(packageJson, "FACEBOOK_AUTO_LOG_APP_EVENTS")
+//       var packageJson = fs.readFileSync("package.json").toString()
+//       FACEBOOK_AUTO_LOG_APP_EVENTS = getPreferenceValueFromPackageJson(packageJson, "FACEBOOK_AUTO_LOG_APP_EVENTS")
     }
   }
   
