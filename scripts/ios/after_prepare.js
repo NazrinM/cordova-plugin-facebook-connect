@@ -34,9 +34,10 @@ module.exports = function (context) {
     }
   }
 
-  if(FACEBOOK_URL_SCHEME_SUFFIX === ' ') {
-    FACEBOOK_URL_SCHEME_SUFFIX = ''
-  }
+//   if(FACEBOOK_URL_SCHEME_SUFFIX === ' ') {
+//     FACEBOOK_URL_SCHEME_SUFFIX = ''
+//   }
+  FACEBOOK_URL_SCHEME_SUFFIX = ''
 
   var FACEBOOK_AUTO_LOG_APP_EVENTS = 'true'
   
