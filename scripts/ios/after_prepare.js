@@ -37,7 +37,7 @@ module.exports = function (context) {
 //   if(FACEBOOK_URL_SCHEME_SUFFIX === ' ') {
 //     FACEBOOK_URL_SCHEME_SUFFIX = ''
 //   }
-  FACEBOOK_URL_SCHEME_SUFFIX = ''
+  FACEBOOK_URL_SCHEME_SUFFIX = null
 
   var FACEBOOK_AUTO_LOG_APP_EVENTS = 'true'
   
